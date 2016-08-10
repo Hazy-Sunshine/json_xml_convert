@@ -42,5 +42,5 @@ def python_conversion_json_2_xml(pa):
     out = open(pa+".xml", 'w+')
     print >>out, converted_xml
     
-# pythonConversionXml2Json('result.json.xml')
-python_conversion_json_2_xml('xiaoyi.json')
+pythonConversionXml2Json('result.json.xml')
+#python_conversion_json_2_xml('xiaoyi.json')
